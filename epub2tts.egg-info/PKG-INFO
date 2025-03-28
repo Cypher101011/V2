@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: epub2tts
+Version: 2.0.0
+Summary: Convert ebooks to audiobooks using various TTS engines
+Home-page: https://github.com/yourusername/epub2tts
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Text Processing :: Markup
+Requires-Python: >=3.8
+Provides-Extra: pdf
+Provides-Extra: edge
+Provides-Extra: gtts
+Provides-Extra: xtts
+Provides-Extra: whisper
+Provides-Extra: gui
+Provides-Extra: all

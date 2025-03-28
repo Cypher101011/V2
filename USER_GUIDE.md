@@ -1,41 +1,24 @@
-<<<<<<< HEAD
-# V2
-epub
-=======
-# EPUB2TTS v2
+# EPUB2TTS User Guide
 
-A user-friendly tool for converting ebooks (EPUB, PDF, and TXT files) to audiobooks using various Text-to-Speech engines, with Whisper speech recognition and a graphical user interface.
+EPUB2TTS is a powerful tool for converting ebooks (EPUB, PDF, and TXT files) to audiobooks using various Text-to-Speech (TTS) engines. This guide will help you get started with EPUB2TTS and explain its features and usage.
 
-## Features
+## Table of Contents
 
-- **Multiple File Formats**:
-  - EPUB
-  - PDF (with pdfplumber)
-  - TXT
-
-- **Multiple TTS Engines**:
-  - XTTS-v2 (Coqui TTS) with voice cloning
-  - Edge TTS (Microsoft) - fast online TTS
-  - Google TTS - simple online TTS
-
-- **Speech Recognition**:
-  - OpenAI Whisper for transcribing audio
-  - Record and transcribe functionality
-  - Voice sample recording for XTTS
-
-- **User-Friendly Interface**:
-  - Graphical User Interface (GUI)
-  - Command-line Interface (CLI)
-  - Dark mode support
-  - Progress tracking
-  - Configuration saving
+1. [Installation](#installation)
+2. [Features](#features)
+3. [Command-Line Interface](#command-line-interface)
+4. [Graphical User Interface](#graphical-user-interface)
+5. [TTS Engines](#tts-engines)
+6. [Whisper Speech Recognition](#whisper-speech-recognition)
+7. [Configuration](#configuration)
+8. [Troubleshooting](#troubleshooting)
 
 ## Installation
 
 ### Prerequisites
 
-- Python 3.8+
-- FFmpeg
+- Python 3.8 or higher
+- FFmpeg (for audio processing)
 - tkinter (for GUI)
 
 ### Installation Steps
@@ -85,4 +68,3 @@ pip install -e ".[gui]"
 # For all features:
 pip install -e ".[all]"
 
->>>>>>> 5856711 (Initial commit)
